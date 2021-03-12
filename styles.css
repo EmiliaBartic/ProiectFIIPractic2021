@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body{
+    height:100%;
+}
+.container{
+    display: flex;
+    align-items: stretch;
+    height:100%;
+}
+nav {
+    background-color: green;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchBtn, .addBtn{
+  font-size:20px;
+  margin:15px;
+  align-items:flex-start;
+}
+.picture{
+    margin:15px;
+    font-size:20px;
+    align-self: flex-end;
+}
+main{
+  flex:1;
+}
+.filters{
+  display:flex;
+}
+
+.Jiratext{
+  margin:10px;
+  font-style:italic;
+}
+.searchInput{
+  margin-left:10px;
+}
+.columns{
+  display:flex;
+  background-color:white;
+  margin-left:10px;
+  height:80%;
+  margin-top:10px;
+  justify-content:space-between;
+}
+.columns > section{
+  border:1px solid #e0e0eb;
+  border-radius:5px;
+  width:23%;
+}
+.TaskSection{
+  background-color:#e0e0eb;
+  justify-content:space-between;
+}
+.task {
+  display:flex;
+  border:1px solid white;
+  border-radius:5px;
+  margin:5px;
+  background-color:white;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  height:60px;
+}
+.taskContainer{
+  display:flex;
+  justify-content:flex-start;
+  flex-direction:column;
+  padding:5px;
+}
+.taskTextinceput {
+  font-style: italic;
+  flex-wrap: wrap;
+  align-self:flex-start;
+}
+.taskTextfinal{
+  font-style: italic;
+  font-size:10px;
+  color: #008000;
+  display: flex;
+  margin-top: auto;
+}
